@@ -19,7 +19,7 @@ function nowServing(lineNum){
   // (if the length of the line is 0 then say this stuff, if not, move to the next return line)
   }
   
-  return `Currently serving ${katzDeliLine.shift()}.` 
+  return `Currently serving ${lineNum.shift()}.` 
   
 }
 
