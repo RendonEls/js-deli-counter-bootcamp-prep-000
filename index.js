@@ -1,11 +1,11 @@
 /*global describe, it */
 
-function takeANumber(lineNum, name){
-  lineNum.push(name)
+function takeANumber(lineNum){
+  lineNum.push.length()
   
   //.push: add this element (new line number and name) to the end of the deli array 
   
-  return `Welcome, ${name}. You are number ${lineNum.length} in line.` 
+  return `Welcome, you are number ${lineNum.length} in line.` 
   }
   
   // could have used:  return "Welcome, "+name+". You are number "+ lineNum.length + " in line."  VERSUS  the line above  *placeholders look cleaner IMO*
