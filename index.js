@@ -13,7 +13,7 @@ function takeANumber(lineNum){
   //.length reflects the number of elements in an array (Why does it not give 0 or 1 for each subsequent numerical (single characters) value? because .push(name) is adding elements the the end of the array and .length is outputting the number of elements in that array)
 
 function nowServing(lineNum){
-  if(katzDeliLine.length === 0){
+  if(lineNum.length === 0){
     return "There is nobody waiting to be served!"
   
   // (if the length of the line is 0 then say this stuff, if not, move to the next return line)
