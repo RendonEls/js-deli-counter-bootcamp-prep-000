@@ -36,7 +36,7 @@ function currentLine(katzDeliLine){
    
     //myString += (" " + currentNum + ". " + katzDeliLine[i] + ",")
    
-    myString += ` ${currentNum}. ${katzDeliLine[i]},`
+    myString += ` ${currentNum}.`
     
    }
   
