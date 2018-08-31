@@ -1,7 +1,7 @@
 /*global describe, it */
 
 function takeANumber(lineNum){
-  lineNum.push(lineNum.length+1)
+  lineNum.push(lineNum.length+1) 
   
   //.push: add this element (new line number and name) to the end of the deli array 
   
